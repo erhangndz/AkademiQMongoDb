@@ -1,13 +1,9 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
+﻿using AkademiQMongoDb.Entities.Common;
 
 namespace AkademiQMongoDb.Entities
 {
-    public class Category
-    {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+    public class Category: BaseEntity
+    {      
         public string Name { get; set; }
     }
 }
