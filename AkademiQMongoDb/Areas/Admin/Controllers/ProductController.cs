@@ -3,8 +3,6 @@ using AkademiQMongoDb.Services.CategoryServices;
 using AkademiQMongoDb.Services.ProductServices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Threading.Tasks;
-using ZstdSharp.Unsafe;
 
 namespace AkademiQMongoDb.Areas.Admin.Controllers
 {
